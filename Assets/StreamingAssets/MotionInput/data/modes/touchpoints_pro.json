@@ -1,0 +1,10 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+      "file": "touch_pinch_with_movement.py"
+    }
+  ]
+}

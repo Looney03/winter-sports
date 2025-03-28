@@ -1,0 +1,157 @@
+{
+  "mode": "group7/wintersports_skating",
+  "object_tracking": false,
+  "realtime_processing": true,
+  "version": 3.4,
+  "camera": {
+    "source": 0,
+    "width": 640,
+    "height": 480,
+    "suggested_sources": [],
+    "logging_enabled": false
+  },
+  "view": {
+    "window_name": "MotionInput",
+    "mode": "notoverlay",
+    "transparency": 0.4,
+    "draw_landmarks": false,
+    "remove_background": false,
+    "click_through": false,
+    "width": 640,
+    "height": 480,
+    "show_fps": true,
+    "low_light": true,
+    "brightness_threshold": 60,
+    "window_position": [-26, -58]
+  },
+  "speech": {
+    "enabled": false,
+    "language": "english",
+    "backend": "vosk",
+    "speaker": {
+      "model": "model-spk",
+      "enabled": false,
+      "locked": false,
+      "locked_details": {
+        "id": "",
+        "name": "",
+        "username": "",
+        "vector": ""
+      }
+    }
+  },
+  "head": {
+    "tilt_left": -0.334,
+    "tilt_right": 0.334,
+    "turn_left": -0.001,
+    "turn_right": 0.001,
+    "calibration_metrics": {
+      "tilt_left": {
+        "range_max": -0.47,
+        "range_min": 0.02245,
+        "range_param": 0.7,
+        "range_val": -0.1
+      },
+      "tilt_right": {
+        "range_max": 0.47,
+        "range_min": 0.02245,
+        "range_param": 0.7,
+        "range_val": 0.1
+      },
+      "turn_left": {
+        "range_max": -0.02566,
+        "range_min": -0.00097,
+        "range_param": 0.9,
+        "range_val": -0.02319
+      },
+      "turn_right": {
+        "range_max": 0.02629,
+        "range_min": -0.00097,
+        "range_param": 0.9,
+        "range_val": 0.02357
+      }
+    },
+    "calibration_map": {
+      "nose_box_percentage_size": 0.04,
+      "nose_box_centre_X": 0.5,
+      "nose_box_centre_Y": 0.5
+    }
+  },
+  "hands": {
+    "pinch_sensitivity": 0.1,
+    "scissor_sensitivity": 0.1,
+    "threshold_distance": 0,
+    "jitter_correction": true,
+    "rotation": {
+      "movement_threshold": 0.8
+    },
+    "zoom": {
+      "frames_for_switch": 4,
+      "movement_threshold": 0.05,
+      "last_hands_dist": "None",
+      "frames_held": 0
+    }
+  },
+  "forcefield": {
+    "forcefields_end": 0.3,
+    "forcefields_start": 0.1
+  },
+  "nose_tracking": {
+    "seen_face": true,
+    "combo_keys": {
+      "interval_time": 0.1,
+      "key": "q",
+      "repeat_times": 4
+    },
+    "gaming_keys": {
+      "down": "down",
+      "left": "left",
+      "right": {
+        "action": {
+          "class": "mouse",
+          "method": "click",
+          "args": ["right"]
+        }
+      },
+      "up": "up"
+    },
+    "nose_box_centre_x_percentage": 0.49282327,
+    "nose_box_centre_y_percentage": 0.55827785,
+    "nose_box_percentage_size_x": 0.04,
+    "nose_box_percentage_size_y": 0.04,
+    "scaling_factor_x": 350,
+    "scaling_factor_y": 350,
+    "overlay_thickness": 1
+  },
+  "bp_tracking": {
+    "bp_box_centre_x_percentage": 0.49282327,
+    "bp_box_centre_y_percentage": 0.55827785,
+    "bp_box_percentage_size_x": 0.16,
+    "bp_box_percentage_size_y": 0.16,
+    "scaling_factor_x": 350,
+    "scaling_factor_y": 350
+  },
+  "handlers": {
+    "scroll": {
+      "speed": 2.0
+    },
+    "mouse": {
+      "sensitivity": 1,
+      "smoothing": 7
+    },
+    "threshold_distance": 0,
+    "forcefield": {
+      "forcefields_end": 0.3,
+      "forcefields_start": 0.1
+    },
+    "touch": {
+      "radius": 5,
+      "smoothing": 3,
+      "touchup_on_fail": false
+    }
+  },
+  "kiosk": {
+    "mouse_movement_threshold": 100000,
+    "sliding_window_N": 7
+  }
+}

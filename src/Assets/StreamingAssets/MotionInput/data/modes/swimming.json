@@ -1,0 +1,39 @@
+{
+  "poses": [
+    {
+      "file": "peace.json",
+      "action": {
+        "class": "keyboard",
+        "method": "single_hold",
+        "args": [ "s", 1.8 ]
+      }
+    },
+    {
+      "file": "swim_right_arm.py",
+      "action": {
+        "class": "keyboard",
+        "method": "single_hold",
+        "args": [ "d", 1.1 ]
+      },
+      "trigger_width" : 25
+    },
+    {
+      "file": "swim_left_arm.py",
+      "action": {
+        "class": "keyboard",
+        "method": "single_hold",
+        "args": [ "a", 1.1 ]
+      },
+      "trigger_width" : 25
+    },
+    {
+      "file": "swim_both_arms.py",
+      "action": {
+        "class": "keyboard",
+        "method": "single_hold",
+        "args": [ "w", 1.5 ]
+      },
+      "trigger_width" : 25
+    }
+  ]
+}

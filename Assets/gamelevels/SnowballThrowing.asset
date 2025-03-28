@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2aaa4d522f147cd99d55f1294da536, type: 3}
+  m_Name: SnowballThrowing
+  m_EditorClassIdentifier: 
+  gameName: Snowball Throwing
+  demoPlay: {fileID: 21300000, guid: 591b4e6e4add60545abfd06649660a63, type: 3}
+  tutorialImages:
+  - {fileID: 21300000, guid: d76950c04c4805d4b943392b3afd23d9, type: 3}
+  - {fileID: 21300000, guid: 0ff4e210001baba4e93591c7fae78772, type: 3}
+  - {fileID: 21300000, guid: 30da3c184beceb8448b861166571f98a, type: 3}
+  - {fileID: 21300000, guid: 2af4fd329fd621c43adaa95328589689, type: 3}
+  - {fileID: 21300000, guid: 1f30c6e9b6689a44cab1322fbfae40f0, type: 3}
+  tutorialText: 
+  sceneName: SnowballFight
+  adjustableParameters:
+  - paramName: 'Movement Sensitivity:'
+    paramType: 3
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection:
+    - Low
+    - Medium
+    - High
+  - paramName: 'Show Timer:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+    selection: []
+  - paramName: 'Game Time:'
+    paramType: 1
+    floatValue: 0
+    intValue: 10
+    boolValue: 0
+    selection: []

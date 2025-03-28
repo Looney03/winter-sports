@@ -1,0 +1,91 @@
+{
+    "poses": [
+        {
+            "action": {
+                "args": [
+                    "left"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "skin": "common/turn_left.png",
+            "landmark": "nose",
+            "pos": [
+                140,
+                200
+            ],
+            "radius": 160,
+            "text": "Turn Left"
+        },
+        {
+            "action": {
+                "args": [
+                    "right"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "skin": "common/turn_right.png",
+            "landmark": "nose",
+            "pos": [
+                520,
+                200
+            ],
+            "radius": 160,
+            "text": "Turn Right"
+        },
+        {
+            "action": {
+                "args": [
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "skin": "common/default_trigger.png",
+            "landmark": "left_wrist",
+            "pos": [
+                140,
+                480
+            ],
+            "radius": 130,
+            "text": "forward"
+        },
+        {
+            "action": {
+                "args": [
+                    "s"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "skin": "common/default_trigger.png",
+            "landmark": "right_wrist",
+            "pos": [
+                500,
+                480
+            ],
+            "radius": 130,
+            "text": "forward"
+        },
+        {
+            "action": {},
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "skin":"common/upper_body.png",
+            "pos": [
+                310,
+                400
+            ],
+            "radius": 350
+        }
+    ]
+}

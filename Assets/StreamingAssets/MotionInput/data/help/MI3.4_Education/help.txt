@@ -1,0 +1,46 @@
+Welcome to MI3.4 Education App – an innovative application developed by UCL!
+Explore the various modes and settings to customize your educational experience.
+Follow the instructions below for a seamless setup and efficient usage.
+ 
+==================================MODES==================================
+
+- Touchless Whiteboard Mode:
+
+  - For annotation during presentations using gestures and movements.
+ 
+- Creativity (Inking) Mode:
+
+  - For drawing on a whiteboard or screen with mapped gestures.
+ 
+- Navigation Mode:
+
+  - Use MI3.4 Education App as a normal mouse for general navigation.
+ 
+- Scroll Navigation Mode:
+
+  - Navigate through documents or webpages.
+ 
+==================================SETTINGS==================================
+
+1) Default Camera Selection:
+
+   - Choose the camera device for MI3.4 Education App from the dropdown menu.
+ 
+2) Pinch Sensitivity Adjustment:
+
+   - Modify sensitivity to suit user preferences for the pinch gesture.
+ 
+3) Speech Commands:
+
+   - Enable hands-free control of computer actions using key phrases like 'click' or 'double click'.
+ 
+4) Hand Switching:
+
+   - Change the controlling hand between default right and alternative hand.
+ 
+5) Scroll Speed Adjustment (Scroll Navigation Mode Exclusive):
+
+   - Adjust the speed of scrolling through documents or webpages.
+   - This setting is exclusive to Scroll Navigation Mode.
+ 
+Enjoy using MI3.4 Education App for a personalized and immersive educational experience!

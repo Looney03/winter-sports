@@ -1,0 +1,59 @@
+{
+    "poses": [
+      {
+        "file": "swim_both_arms.py",
+        "action": {
+          "class": "keyboard",
+          "method": "single_hold",
+          "args": [ "space", 0.9 ]
+        },
+        "trigger_width" : 25
+      },
+      {
+        "file": "nose_tracking_event.py",
+        "gaming_keys": {
+          "down": {
+            "action": {
+              "args": [
+                "s"
+              ],
+              "class": "keyboard",
+              "method": "press"
+            }
+          },
+          "left": {
+            "action": {
+              "args": [
+                "a"
+              ],
+              "class": "keyboard",
+              "method": "press"
+            }
+          },
+          "right": {
+            "action": {
+              "args": [
+                "d"
+              ],
+              "class": "keyboard",
+              "method": "press"
+            }
+          },
+          "up": {
+            "action": {
+              "args": [
+                "w"
+              ],
+              "class": "keyboard",
+              "method": "press"
+            }
+          }
+        },
+        "nose_tracking_mode": "ARROW_KEYS_HOLD",
+        "reset_nose_box": true,
+        "show_face": false,
+        "show_arrows": true
+      }
+    ]
+  }
+  

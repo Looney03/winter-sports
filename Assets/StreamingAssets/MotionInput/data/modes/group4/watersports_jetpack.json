@@ -1,0 +1,77 @@
+{
+    "poses": [
+      {
+        "action": {
+            "args": [
+                "a"
+            ],
+            "class": "keyboard",
+            "method": "hold"
+        },
+        "color": [255,200,200],
+        "file": "hit_trigger.py",
+        "landmark": "left_wrist",
+        "pos": [
+            70,
+            300
+        ],
+        "radius": 70,
+        "text": "left"
+    },
+    {
+        "action": {
+            "args": [
+                "d"
+            ],
+            "class": "keyboard",
+            "method": "hold"
+        },
+        "color": [255,200,200],
+        "file": "hit_trigger.py",
+        "landmark": "right_wrist",
+        "pos": [
+            570,
+            300
+        ],
+        "radius": 70,
+        "text": "right"
+    },
+    {
+      "action": {
+          "args": [
+              "w"
+          ],
+          "class": "keyboard",
+          "method": "hold"
+      },
+      "color": [255,200,200],
+      "file": "hit_trigger.py",
+      "landmark": "right_wrist",
+      "pos": [
+          320,
+          380
+      ],
+      "radius": 90,
+      "text": "forward"
+    },
+    {
+      "action": {
+          "args": [
+              "w"
+          ],
+          "class": "keyboard",
+          "method": "hold"
+      },
+      "color": [255,200,200],
+      "file": "hit_trigger.py",
+      "landmark": "left_wrist",
+      "pos": [
+          320,
+          380
+      ],
+      "radius": 90,
+      "text": "forward"
+    }
+    ]
+  }
+  

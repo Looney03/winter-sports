@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2aaa4d522f147cd99d55f1294da536, type: 3}
+  m_Name: Kayaking
+  m_EditorClassIdentifier: 
+  gameName: Kayaking
+  demoPlay: {fileID: 21300000, guid: a40b8db0f730fb6459a621a447eedf87, type: 3}
+  tutorialImages:
+  - {fileID: 21300000, guid: a46daa3e87315ef4f8df2a94618f5600, type: 3}
+  - {fileID: 21300000, guid: 4c8a1a89090e01f4b919cee1dc1f3739, type: 3}
+  - {fileID: 21300000, guid: 0e2cdafb3a6b2e24685b2405bb29bd15, type: 3}
+  - {fileID: 21300000, guid: 3edf31abbfe9c9d449f167092a90f1a3, type: 3}
+  - {fileID: 21300000, guid: ba561d8c016e06445b2d23b3a33927ce, type: 3}
+  - {fileID: 21300000, guid: 074fe98d05e35124f8c951a79f6d49db, type: 3}
+  tutorialText: 
+  sceneName: kayaking
+  adjustableParameters:
+  - paramName: 'Show Timer:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+    selection: []
+  - paramName: 'Show High Score:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection: []
+  - paramName: 'Show Score:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+    selection: []
+  - paramName: 'Game Time:'
+    paramType: 1
+    floatValue: 0
+    intValue: 30
+    boolValue: 0
+    selection: []
+  - paramName: 'Kayak Model:'
+    paramType: 3
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection:
+    - wood
+    - blue
+    - orange
+  - paramName: 'Forward Speed:'
+    paramType: 3
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection:
+    - Slow
+    - Normal
+    - Fast
+  - paramName: 'Show Map:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection: []

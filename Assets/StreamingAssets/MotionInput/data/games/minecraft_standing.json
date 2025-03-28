@@ -1,0 +1,85 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+      ]
+    },
+    "poses":{ 
+      "full_pinch": {
+        "action": "mouse_down",
+        "args": ["right"]
+      },
+      "fist": {
+        "action": "mouse_down",
+        "args": ["left"]
+      }
+    },
+    "gestures": {
+      "right_punch": {
+        "action": "mouse_press",
+        "args": ["left"]
+      },
+      "right_clockwise_circle": {
+        "action": "mouse_toggle",
+        "args": ["left"]
+      },
+      "left_punch": {
+        "action": "mouse_press",
+        "args": ["right"]
+      },
+      "bow_arrow": {
+        "action": "mouse_press_interval",
+        "args": ["left", 1]
+      },
+      "push_back": {
+        "action": "key_press",
+        "args": ["q"]
+      }
+    },
+    "speech": {
+        "open": {
+          "action": "key_press",
+          "args": ["e"]
+        },
+        "one": {
+            "action": "key_press",
+            "args": ["1"]
+        },
+        "two": {
+            "action": "key_press",
+            "args": ["2"]
+        },
+        "three": {
+            "action": "key_press",
+            "args": ["3"]
+        },
+        "four": {
+            "action": "key_press",
+            "args": ["4"]
+        },
+        "five": {
+            "action": "key_press",
+            "args": ["5"]
+        },
+        "six": {
+            "action": "key_press",
+            "args": ["6"]
+        },
+        "seven": {
+            "action": "key_press",
+            "args": ["7"]
+        },
+        "eight": {
+            "action": "key_press",
+            "args": ["8"]
+        },
+        "nine": {
+            "action": "key_press",
+            "args": ["9"]
+        }
+        
+    }
+    
+  }
+  
+  

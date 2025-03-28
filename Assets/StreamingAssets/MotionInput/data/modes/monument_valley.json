@@ -1,0 +1,34 @@
+{
+  "modeName": "Monument Valley",
+  "poses": [
+	{
+	  "file": "body_mouse.py",
+	  "action_name": "Move Mouse",
+	  "landmark": "right_wrist"
+	},
+	{
+	  "file": "hit_trigger.py",
+	  "action_name": "Mouse Hold",
+	  "landmark": "left_wrist",
+	  "skin": "common/hold.png",
+	  "pos": [126, 300],
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["left"]
+	  }
+	},
+	{
+	  "file": "hit_trigger.py",
+	  "action_name": "Mouse Click",
+	  "landmark": "left_wrist",
+	  "skin": "common/click.png",
+	  "pos": [135, 180],
+	  "action": {
+		"class": "mouse",
+		"method": "click",
+		"args": ["left"]
+	  }
+	}
+  ]
+}

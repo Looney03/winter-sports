@@ -1,0 +1,13 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+      "file": "hand_mouse.py"
+    },
+    {
+      "file": "hand_pinch_touch.py"
+    }
+  ]
+}

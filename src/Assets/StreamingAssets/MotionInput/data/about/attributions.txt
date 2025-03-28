@@ -1,0 +1,49 @@
+# Icon Attribution Notice
+
+The following icons were used in this software under the free licensing agreements provided by Flaticon.
+Full attribution is provided below in compliance with the terms of use.
+
+1. Finger icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/finger
+
+2. Hand icons - created by berkahicon
+   Source: https://www.flaticon.com/free-icons/hand
+
+3. Skiing icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/skiing
+
+4. Jump icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/jump
+
+5. Mode icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/mode
+
+6. Reset icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/reset
+
+7. Multimedia option icons - created by Good Ware
+   Source: https://www.flaticon.com/free-icons/multimedia-option
+
+8. Pause icons - created by Freepik
+   Source: https://www.flaticon.com/free-icons/pause
+
+9. Ui icons - created by Fathema Khanom
+   Source: https://www.flaticon.com/free-icons/ui
+
+10. Emoji icons - created by Vectors Market
+    Source: https://www.flaticon.com/free-icons/emoji
+
+11. Angry icons - created by Vectors Market
+    Source: https://www.flaticon.com/free-icons/angry
+
+12. Shocked icons - created by Vectors Market
+    Source: https://www.flaticon.com/free-icons/shocked
+
+13. Kiss icons - created by Vectors Market
+    Source: https://www.flaticon.com/free-icons/kiss
+
+14. Directional pad icons - created by Vaibhav Radhakrishnan
+    (CC BY 3.0)
+    Source: https://thenounproject.com/browse/icons/term/directional-pad
+
+# End of Attribution Notice

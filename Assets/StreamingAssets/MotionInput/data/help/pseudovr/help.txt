@@ -1,0 +1,56 @@
+UCL MotionInput v3.2 Pseudo-VR Action Gaming
+
+This application simulates control of the mouse and keyboard, using your hands and body to complete gestures.
+Each profile can be customised and saved, with the option to reset to back to the profile's defaults if needed.
+
+Poses
+---
+Poses refer to shapes that can be made using the hand. Once recorded, these can be detected from any hand.
+This offers a way to click or hold keys by using the hand. 
+Some default poses that come included are:
+- Index Pinch
+- Fist
+- Peace
+
+Gestures
+---
+Gestures refer to movements made by the body. Once recorded, they can be detected by any person of any size.
+These offer a way to trigger actions in games through key bindings, allowing users to mimic game movements.
+Some default gestures that come included are:
+- Kick
+- Punch
+- Hadouken
+
+Sitting/Standing Modes
+---
+Sitting profiles are optimised for hand poses and dual joystick control, emulating a game controller.
+Standing profiles enable "walking-on-the-spot" to allow movement in-game. This is bound to the "w" key.
+You can optionally adjust the sensitivity of walking detection and calibrate the walking to your own body.
+
+Mouse Modes
+---
+There are three mouse modes you can choose from:
+
+1. Default - this provides a box within which the position of your hand maps to the mouse on-screen.
+2. Joystick - like a game joystick, the hand movement controls the mouse relative to a fixed centre point.
+3. None - disables hand mouse control. Good for pure-gesture games.
+
+Speech Hotkeys
+---
+Map speech phrases to keyboard keys. The specified keys will be clicked once when the corresponding phrase is spoken.
+
+Gesture/Pose Hotkeys
+---
+Map gestures/poses to keyboard keys.
+For gestures, the keys are clicked once when a gesture is detected.
+For poses, the keys are held down for as long as the pose is detected.
+
+Default Desktop Mode
+---
+- Raising your right hand, you will be able to do the following:
+>Index Pinch (Index Finger and Thumb)- Left Mouse Press (or just say "hold left" and then "release left" when desired)
+>Middle Pinch (Middle Finger and Thumb) - Right Mouse Press (or just say "hold right" and then "release right" when desired)
+>Make a fist with your hand - Double Mouse Click (or just say "double click")
+>Press the index and middle finger against each other (side by side) and then tilt hand upwards/downwards to scroll up/down accordingly
+>Pinky Pinch (Pinky Little Finger and Thumb) - Monitor Switch - perform this gesture once to switch to the next screen/monitor (if connected).
+Repeatedly perform this gesture to cycle through multiple monitors.

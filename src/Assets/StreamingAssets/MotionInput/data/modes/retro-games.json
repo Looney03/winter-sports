@@ -1,0 +1,187 @@
+{
+    "speech": {
+        "up": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["up"]
+            },
+            "ignore": "hold up"
+        },
+        "down": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["down"]
+            },
+            "ignore": "hold down"
+        },
+        "left": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["left"]
+            },
+            "ignore": "hold left"
+        },
+        "right": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["right"]
+            },
+            "ignore": "hold right"
+        },
+        "click": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["x"]
+            },
+            "ignore": "hold click"
+        },
+        "back": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["z"]
+            },
+            "ignore": "hold back"
+        },
+        "start": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["enter"]
+            },
+            "ignore": "hold start"
+        },
+        "select": {
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["backspace"]
+            },
+            "ignore": "hold select"
+        },
+        "hold up": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["up"]
+            }
+        },
+        "hold down": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["down"]
+            }
+        },
+        "hold left": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["left"]
+            }
+        },
+        "hold right": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["right"]
+            }
+        },
+        "hold click": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["x"]
+            }
+        },
+        "hold back": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["z"]
+            }
+        },
+        "hold start": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["enter"]
+            }
+        },
+        "hold select": {
+            "action": {
+                "class": "keyboard",
+                "method": "hold",
+                "args": ["backspace"]
+            }
+        },
+        "release up": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["up"]
+            }
+        },
+        "release down": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["down"]
+            }
+        },
+        "release left": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["left"]
+            }
+        },
+        "release right": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["right"]
+            }
+        },
+        "release click": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["x"]
+            }
+        },
+        "release back": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["z"]
+            }
+        },
+        "release start": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["enter"]
+            }
+        },
+        "release select": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["backspace"]
+            }
+        },
+        "stop": {
+            "action": {
+                "class": "keyboard",
+                "method": "release",
+                "args": ["up", "down", "left", "right", "z", "x", "enter", "backspace"]
+            }
+        }
+    }
+}

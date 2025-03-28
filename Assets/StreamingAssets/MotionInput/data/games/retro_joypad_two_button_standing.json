@@ -1,0 +1,27 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_movement_joystick_left_hand",
+        "hand_index_pinch_left_press_right_hand"
+      ]
+    },
+    "gestures":{
+      "left_punch": {
+        "action": "key_press",
+        "args": ["q"]
+      },
+      "right_punch": {
+        "action": "key_press",
+        "args": ["e"]
+      }
+    },
+    "speech": {
+      "pause": {
+        "action": "key_press",
+        "args": ["esc"]
+      }
+    }
+  }
+  
+  

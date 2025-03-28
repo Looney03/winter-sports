@@ -1,0 +1,44 @@
+{
+  "config": {
+    "mouse": "none",
+    "default_events": [
+      "hand_movement_joystick_left_hand"
+    ]
+  },
+  "poses": {
+    "shoot": {
+      "action": "key_down",
+      "args": ["space"]
+    },
+    "fist": {
+      "action": "key_down",
+      "args": ["l"]
+    },
+    "three_fingers": {
+      "action": "key_down",
+      "args": ["j"]
+    },
+    "pinky_up": {
+      "action": "key_down",
+      "args": ["k"]
+    },
+    "peace": {
+      "action": "key_down",
+      "args": ["shift"]
+    }
+
+  },
+  "speech": {
+    "switch": {
+      "action": "key_press",
+      "args": ["shift"]
+    }
+  },
+  "gestures": {
+    "kick": {
+      "action": "key_press",
+      "args": ["a"]
+    }
+  }
+}
+

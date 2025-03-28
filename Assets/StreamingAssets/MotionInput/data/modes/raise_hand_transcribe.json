@@ -1,0 +1,11 @@
+{
+    "config":{
+        "hand": "left",
+        "facing_camera": true
+    },
+    "poses": [
+      {
+        "file": "raise_hand_transcribe.py"
+      }
+    ]
+}

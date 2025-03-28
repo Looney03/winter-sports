@@ -1,0 +1,74 @@
+{
+    "config": {
+      "mouse": "joystick",
+      "hand": "right",
+      "default_events": [
+        "hand_movement_joystick_left_hand",
+        "hand_index_pinch_left_press_right_hand"
+      ]
+    },
+    "poses":{ 
+      "pinky_up": {
+        "action": "mouse_down",
+        "args": ["right"]
+      },
+      "shoot": {
+          "action": "key_press",
+          "args": ["q"]
+      },
+      "fist": {
+        "action": "mouse_down",
+        "args": ["left"]
+      },
+      "three_fingers": {
+        "action": "key_down",
+        "args": ["e"]
+      },
+      "peace": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    },
+    "speech": {
+        "one": {
+            "action": "key_press",
+            "args": ["1"]
+        },
+        "two": {
+            "action": "key_press",
+            "args": ["2"]
+        },
+        "three": {
+            "action": "key_press",
+            "args": ["3"]
+        },
+        "four": {
+            "action": "key_press",
+            "args": ["4"]
+        },
+        "five": {
+            "action": "key_press",
+            "args": ["5"]
+        },
+        "six": {
+            "action": "key_press",
+            "args": ["6"]
+        },
+        "seven": {
+            "action": "key_press",
+            "args": ["7"]
+        },
+        "eight": {
+            "action": "key_press",
+            "args": ["8"]
+        },
+        "nine": {
+            "action": "key_press",
+            "args": ["9"]
+        }
+        
+    }
+    
+  }
+  
+  

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+      "file": "kiosk.py"
+    }
+  ],
+  "gestures": [
+    {
+      "file": "doctor_strange.json",
+      "action": {
+        "class": "keyboard",
+        "method": "press",
+        "args": ["alt", "left"]
+      }
+    }
+  ]
+}

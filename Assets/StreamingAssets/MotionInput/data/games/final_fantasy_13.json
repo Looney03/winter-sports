@@ -1,0 +1,20 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_movement_joystick_left_hand"
+      ]
+    },
+    "gestures": {
+        "right_clockwise_circle": {
+            "action": "mouse_press",
+            "args": ["left"]
+        },
+        "uppercut": {
+            "action": "key_press",
+            "args": ["space"]
+        }
+    }
+  }
+  
+  

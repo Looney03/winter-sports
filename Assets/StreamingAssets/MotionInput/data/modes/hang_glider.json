@@ -1,0 +1,97 @@
+{
+    "poses": [   
+        {
+            "bp_tracking_mode": "ARROW_KEYS_HOLD",
+            "file": "body_point_tracking_event.py",
+            "gaming_keys": {
+                "down": {
+                    "action": {
+                        "args": [
+                            "up"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "left": {
+                    "action": {
+                        "args": [
+                            "left"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "right": {
+                    "action": {
+                        "args": [
+                            "right"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "up": {
+                    "action": {
+                        "args": [
+                            "down"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                }
+            },
+            "landmark": "left_wrist",
+            "reset_bp_box": false,
+            "show_arrows": true,
+            "box_position" : [0.3, 0.5]
+        },
+		{
+            "action": {
+                "args": [
+                    "q"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [
+                255,
+                30,
+                30
+            ],
+            "file": "hit_trigger.py",
+            "landmark": "right_wrist",
+            "pos": [
+                550,
+                90
+            ],
+            "radius": 90,
+			"text": "",
+            "skin": "browsing\\hit-flat-circle.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "esc"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [
+                255,
+                30,
+                30
+            ],
+            "file": "hit_trigger.py",
+            "landmark": "right_wrist",
+            "pos": [
+                550,
+                390
+            ],
+            "radius": 90,
+			"text": "",
+            "skin": "browsing\\hit-up-circle.png"
+        }
+    ]
+}
+

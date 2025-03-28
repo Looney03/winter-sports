@@ -1,0 +1,12 @@
+Library/ 
+Temp/ 
+Build/ 
+.vs/ 
+obj/ 
+*.exe 
+*.dll 
+*.cache 
+*.resS 
+*.apk 
+*.aab 
+*.unitypackage 

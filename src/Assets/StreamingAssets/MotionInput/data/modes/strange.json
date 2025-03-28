@@ -1,0 +1,15 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "gestures": [
+    {
+      "file": "doctor_strange.json",
+      "action": {
+        "class": "keyboard",
+        "method": "press",
+        "args": ["cmd", "left"]
+      }
+    }
+  ]
+}

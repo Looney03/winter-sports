@@ -1,0 +1,71 @@
+{
+    "config": {
+        "hand": "right"
+        },
+    "poses": [
+        {
+        "file": "two_hands_mouse.py"
+        },
+        {
+        "file": "two_hands_rotation.py"
+        },
+        {
+        "file": "zoom_pinch.py"
+        },
+        {
+        "file": "thumb_index_pinch.json",
+        "action": {
+            "class": "mouse",
+            "method": "hold",
+            "args": ["left"]
+        }
+        },
+        {
+        "file": "thumb_ring_pinch.json",
+        "action": {
+            "class": "keyboard",
+            "method": "start_scroll",
+            "args": ["up"]
+        }
+        },
+        {
+        "file": "thumb_ring_release.json",
+        "action": {
+            "class": "keyboard",
+            "method": "stop_scroll"
+        }
+        },
+        {
+        "file": "thumb_pinky_pinch.json",
+        "action": {
+            "class": "keyboard",
+            "method": "start_scroll",
+            "args": ["down"]
+        }
+        },
+        {
+        "file": "thumb_index_child_pinch.json",
+        "action": {
+            "class": "mouse",
+            "method": "hold",
+            "args": ["left"]
+            }
+        },
+        {
+        "file": "thumb_up.json",
+        "action": {
+            "class": "keyboard",
+            "method": "press_two_keys",
+            "args": ["press","shift","left"]
+        }
+        },
+        {
+        "file": "pinky_up_education.json",
+        "action": {
+                "class": "keyboard",
+                "method": "press_two_keys",
+                "args": ["release","shift","left"]
+        }
+        }
+    ]
+  }

@@ -1,0 +1,485 @@
+{
+  "gui": [
+	{
+      "file": "move_window_button.py",
+      "pos": [50, 40],
+      "radius": 30
+    },
+    {
+      "file": "button.py",
+      "pos": [600, 40],
+      "radius": 30,
+      "skin": "icons/logo.png",
+      "action": {
+        "class": "system",
+        "method": "open_url",
+        "args": ["https://www.facenav.org/"]
+      }
+    }
+  ],
+  "poses": [
+	{
+	  "file": "nose_tracking_event.py",
+	  "gaming_keys": {
+		"down": {
+		  "action": {
+			"args": ["down"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"left": {
+		  "action": {
+			"args": ["left"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"right": {
+		  "action": {
+			"args": ["right"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"up": {
+		  "action": {
+			"args": ["up"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		}
+	  },
+	  "nose_tracking_mode": "MOUSE_JOYSTICK",
+	  "show_arrows": false,
+	  "facial_overlay": 0
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "open_mouth"
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "smile"
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "raise_eyebrows"
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "fish_face"
+	},
+	{
+	  "file": "head_tilt.py",
+	  "left": {},
+	  "right": {}
+	}
+  ],
+  "speech": {
+	"butterfly": {
+	  "action": {
+		"args": ["reset_nose_box", true],
+		"class": "flags",
+		"method": "set"
+	  }
+	},
+	"click": {
+	  "action": {
+		"class": "mouse",
+		"method": "click",
+		"args": ["left"]
+	  }
+	},
+	"right click": {
+	  "action": {
+		"class": "mouse",
+		"method": "click",
+		"args": ["right"]
+	  }
+	},
+	"double click": {
+	  "action": {
+		"class": "mouse",
+		"method": "double_click",
+		"args": ["left"]
+	  }
+	},
+	"transcribe": {
+	  "action": {
+		"class": "kita_controller",
+		"method": "start_transcription",
+		"args": []
+	  },
+	  "ignore": "stop transcribe"
+	},
+	"stop transcribe": {
+	  "action": {
+		"class": "kita_controller",
+		"method": "stop_transcription",
+		"args": []
+	  }
+	},
+	"start": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_tracking", true]
+	  }
+	},
+	"stop": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_tracking", false]
+	  }
+	},
+	"zoom in": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_zoom_in", true]
+	  }
+	},
+	"zoom out": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_zoom_out", true]
+	  }
+	},
+	"hold left": {
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["left"]
+	  }
+	},
+	"release left": {
+	  "action": {
+		"class": "mouse",
+		"method": "release",
+		"args": ["left"]
+	  }
+	},
+	"hold right": {
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["right"]
+	  }
+	},
+	"release right": {
+	  "action": {
+		"class": "mouse",
+		"method": "release",
+		"args": ["right"]
+	  }
+	},
+	"next": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["right"]
+	  }
+	},
+	"previous": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["left"]
+	  }
+	},
+	"up": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["up"]
+	  }
+	},
+	"down": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["down"]
+	  }
+	},
+	"enter": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["enter"]
+	  }
+	},
+	"escape": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["esc"]
+	  }
+	},
+	"page up": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["page_up"]
+	  }
+	},
+	"page down": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["page_down"]
+	  }
+	},
+	"full screen": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["f5"]
+	  }
+	},
+	"save": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "s"]
+	  }
+	},
+	"space": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["space"]
+	  }
+	},
+	"copy": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "c"]
+	  }
+	},
+	"paste": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "v"]
+	  }
+	},
+	"cut": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "x"]
+	  }
+	},
+	"print": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "p"]
+	  }
+	},
+	"undo": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "z"]
+	  }
+	},
+	"revert": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "z"]
+	  }
+	},
+	"redo": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "y"]
+	  }
+	},
+	"bold": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "b"]
+	  }
+	},
+	"italic": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "i"]
+	  }
+	},
+	"underline": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "u"]
+	  }
+	},
+	"select all": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "a"]
+	  }
+	},
+	"find": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "f"]
+	  }
+	},
+	"volume up": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_up"]
+	  }
+	},
+	"volume down": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_down"]
+	  }
+	},
+	"mute": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_mute"]
+	  }
+	},
+	"unmute": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_mute"]
+	  }
+	},
+	"close": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["alt", "f4"]
+	  }
+	},
+	"minimize": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["cmd", "down"]
+	  }
+	},
+	"maximize": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["cmd", "up"]
+	  }
+	},
+	"windows key": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["cmd"]
+	  }
+	},
+	"start menu": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["cmd"]
+	  }
+	},
+	"windows run": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["cmd", "r"]
+	  }
+	},
+	"files": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["cmd", "e"]
+	  }
+	},
+	"play": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_play_pause"]
+	  }
+	},
+	"pause": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_play_pause"]
+	  }
+	},
+	"next track": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "right"]
+	  }
+	},
+	"previous track": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["ctrl", "left"]
+	  }
+	},
+	"show full screen": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "f5"]
+	  }
+	},
+	"new document": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["ctrl", "n"]
+	  }
+	},
+	"switch windows": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press_two_keys_v2",
+		"args": ["alt", "tab"]
+	  }
+	},
+	"back space": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["backspace"]
+	  }
+	},
+	"delete": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["delete"]
+	  }
+	}
+  }
+}

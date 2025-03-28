@@ -1,0 +1,57 @@
+{
+  "config": {
+    "mouse": "none",
+    "default_events": [
+      "hand_movement_joystick_left_hand"
+    ]
+  },
+  "poses":{
+    "punch_light": {
+      "action": "key_down",
+      "args": ["g"]
+    },
+    "fist": {
+      "action": "key_down",
+      "args": ["h"]
+    },
+    "punch_heavy": {
+      "action": "key_down",
+      "args": ["j"]
+    },
+    "pinky_up": {
+      "action":"key_down",
+      "args": ["b"]
+    },
+    "pinky_2_up": {
+      "action": "key_down",
+      "args": ["n"]
+    },
+    "pinky_3_up": {
+      "action": "key_down",
+      "args": ["m"]
+    },
+    "shoot": {
+      "action": "hadouken",
+      "args": []
+    },
+    "peace": {
+      "action": "ultimate_hadouken",
+      "args": []
+    },
+    "full_pinch": {
+      "action": "senpunyaku",
+      "args": []
+    },
+    "three_fingers": {
+      "action": "shoryuken",
+      "args": []
+    }
+  },
+  "speech": {
+    "special": {
+      "action": "special",
+      "args": []
+    }
+  }
+}
+

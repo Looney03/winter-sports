@@ -1,0 +1,55 @@
+UCL MotionInput 3 FAQ - www.touchlesscomputing.org
+Current version 3.2
+------------------
+
+Can I see some videos on what exactly this is?
+- our videos playlist is here: https://www.youtube.com/playlist?list=PLItOc9xhnCnidFTWh95oh2fTpbjz64Kub
+
+What hardware do I need to run this?
+- A Windows 10/11 based PC or laptop, with a webcam! Ideally an Intel-based PC, 7th Gen and above, and 4GB RAM. An SSD is highly recommended. The more CPU cores the merrier! Running parallel ML and CV is highly compute intensive, even with our extensive optimisations. Doing simple mouse clicks in a web browser, should be much less intensive.
+
+
+What platforms does this run on?
+- Windows 10 or 11. If you would like to help to test this with us, please contact us: https://forms.office.com/r/P3a3dsH8Gx or by email on our touchlesscomputing.org website.
+
+How do I run the software?
+
+- From Windows Store, this should download to your start menu
+- From the downloaded application (non-Windows Store version), double click the installer and it will be installed to your Windows Start Menu. 
+Alternatively, download the zip file version and unzip to your PC, and run the MFC (GUI) executable file. 
+
+On some computers we have found that the Microsoft Visual C++ Redistributable is not installed. If no window appears, try installing this for X64 - https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+Follow the instructions on the download link.
+
+How can I add my own speech commands to my own favourite applications and games?
+- Use the MFC graphical user interface and navigate to the Speech Hotkeys Configure Mapping button to add your own speech command phrases.
+
+If I have multiple cameras on my device (e.g. a tablet computer with front and back) how can I get to set the right camera?
+- This is set from the MFC graphical user interface.
+
+Errors:
+
+It didn't run, what can I do?
+
+- This Technical Preview version is experimental and we, with zero-funds on this academic project, did not have a wide network for testing beyond our students and staff. We would love for community testers to come onboard so please contact us. Meantime, you can check the following:
+
+If you have multiple cameras on your PC/laptop you can try to disconnect them. Some laptops with "hello" recognition built in have had errors. In the folder "data", you will see config.json. Try changing the value of camera_nr from 0 to 1, 2 or 3. We are working on detecting this currently.
+
+If you have an antivirus it may say warnings (or stop the app completely) from accessing the camera and microphone. The software requires those things to run, so you may have to alter settings in your antivirus and restart your machine.
+
+Keep your Windows 10 and Windows 11 installations up to date, the oldest versions of Windows 10 have reported errors.
+You are welcome to contact us with any other thoughts and requests on compatibility issues you have faced.
+
+Non-technical points of interest:
+
+This is very much in the realm of sci-fi! Can I do gestures like in <insert hollywood film here> ?
+- Check out UCL MotionInput v3.2 Gesture Recorder on the Microsoft Store to get started with recording gestures! You can import them and bind them to keys to start playing with them immediately!
+
+What motivated you to build this?
+- Covid-19 affected the world, and for a while before the vaccines, as well as the public getting sick, hospital staff were getting severely ill. To keep shared computers clean and germ free comes at a cost to various economies around the world. We saw a critical need to develop cheap/free software to help in healthcare, improve the way in which we work and so we examined many different methods for touchless computing. Along the journey, several major tech firms had made significant jumps in Machine Learning (ML) and Computer Vision, and our UCL IXN programme was well suited to getting them working together with students and academics. Some of the tech firms also had let go of past products which would have been useful if they were still in production, but the learning from them was still there. At the same time, we also realised that childhood obesity and general population health was deteriorating during lockdowns. So we developed several project packages to specifically look at how to get people moving more, with tuning of accuracy for various needs. Especially in healthcare, education and in industrial sectors, we looked at specific forms of systems inputs and patterns of human movements, to develop a robust engine that could scale with future applications of use. The Touchless Computing team at UCLCS have a key aim of equitable computing for all, without requiring further redevelopment of existing and established software products in use today.
+
+Whats next?
+- We have a lot of great plans and the tech firm companies on board are excited to see what our academics and students will come up with next. Keep in touch with us, send us your touchless computing requests and especially if it can help people, we want to know and open collaborations.
+Feedback form: 
+https://forms.office.com/r/P3a3dsH8Gx or by email on our touchlesscomputing.org website.

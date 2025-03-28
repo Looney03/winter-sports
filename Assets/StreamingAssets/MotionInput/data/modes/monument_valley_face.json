@@ -1,0 +1,260 @@
+{
+  "poses": [
+	{
+	  "file": "hit_trigger.py",
+	  "landmark": "right_wrist",
+	  "pos": [480, 160],
+	  "radius": 36,
+	  "skin": "common/pause.png",
+	  "toggle": true,
+	  "action": {
+		"class": "flags",
+		"method": "toggle",
+		"args": ["nose_tracking"]
+	  }
+	},
+	{
+	  "file": "nose_tracking_event.py",
+	  "gaming_keys": {
+		"down": {
+		  "action": {
+			"args": ["down"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"left": {
+		  "action": {
+			"args": ["left"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"right": {
+		  "action": {
+			"args": ["right"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		},
+		"up": {
+		  "action": {
+			"args": ["up"],
+			"class": "keyboard",
+			"method": "press"
+		  }
+		}
+	  },
+	  "nose_tracking_mode": "MOUSE_DIRECT",
+	  "show_arrows": false,
+	  "facial_overlay": 0
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "open_mouth"
+	},
+	{
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["left"]
+	  },
+	  "file": "head_pose.py",
+	  "pose": "smile"
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "raise_eyebrows"
+	},
+	{
+	  "action": {},
+	  "file": "head_pose.py",
+	  "pose": "fish_face"
+	},
+	{
+	  "file": "head_tilt.py",
+	  "left": {},
+	  "right": {}
+	}
+  ],
+  "speech": {
+	"butterfly": {
+	  "action": {
+		"args": ["reset_nose_box", true],
+		"class": "flags",
+		"method": "set"
+	  }
+	},
+	"click": {
+	  "action": {
+		"class": "mouse",
+		"method": "click",
+		"args": ["left"]
+	  }
+	},
+	"right click": {
+	  "action": {
+		"class": "mouse",
+		"method": "click",
+		"args": ["right"]
+	  }
+	},
+	"double click": {
+	  "action": {
+		"class": "mouse",
+		"method": "double_click",
+		"args": ["left"]
+	  }
+	},
+	"transcribe": {
+	  "action": {
+		"class": "kita_controller",
+		"method": "start_transcription",
+		"args": []
+	  },
+	  "ignore": "stop transcribe"
+	},
+	"stop transcribe": {
+	  "action": {
+		"class": "kita_controller",
+		"method": "stop_transcription",
+		"args": []
+	  }
+	},
+	"start": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_tracking", true]
+	  }
+	},
+	"stop": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_tracking", false]
+	  }
+	},
+	"zoom in": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_zoom_in", true]
+	  }
+	},
+	"zoom out": {
+	  "action": {
+		"class": "flags",
+		"method": "set",
+		"args": ["nose_zoom_out", true]
+	  }
+	},
+	"hold left": {
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["left"]
+	  }
+	},
+	"release left": {
+	  "action": {
+		"class": "mouse",
+		"method": "release",
+		"args": ["left"]
+	  }
+	},
+	"hold right": {
+	  "action": {
+		"class": "mouse",
+		"method": "hold",
+		"args": ["right"]
+	  }
+	},
+	"release right": {
+	  "action": {
+		"class": "mouse",
+		"method": "release",
+		"args": ["right"]
+	  }
+	},
+	"next": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["right"]
+	  }
+	},
+	"previous": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["left"]
+	  }
+	},
+	"up": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["up"]
+	  }
+	},
+	"down": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["down"]
+	  }
+	},
+	"enter": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["enter"]
+	  }
+	},
+	"escape": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["esc"]
+	  }
+	},
+	"space": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["space"]
+	  }
+	},
+	"volume up": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_up"]
+	  }
+	},
+	"volume down": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_down"]
+	  }
+	},
+	"mute": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_mute"]
+	  }
+	},
+	"unmute": {
+	  "action": {
+		"class": "keyboard",
+		"method": "press",
+		"args": ["media_volume_mute"]
+	  }
+	}
+  }
+}

@@ -1,0 +1,190 @@
+{
+    "poses": [
+        {
+            "file": "body_mouse.py",
+            "landmark": "right_wrist"
+        },
+        {
+            "action": {
+                "args": [
+                    "left"
+                ],
+                "class": "mouse",
+                "method": "click"
+            },
+            "color": 3,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                120,
+                360
+            ],
+            "radius": 50,
+            "skin": "browsing\\click.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "up"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": 1,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                200,
+                120
+            ],
+            "radius": 40,
+            "skin": "browsing\\up.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "down"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": 2,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                40,
+                120
+            ],
+            "radius": 40,
+            "skin": "browsing\\down.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "alt",
+                    "left"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [
+                255,
+                30,
+                30
+            ],
+            "file": "hit_trigger.py",
+            "landmark": "left_elbow",
+            "pos": [
+                40,
+                360
+            ],
+            "radius": 40,
+            "skin": "browsing\\goback.png"
+        }
+    ],
+    "speech": {
+        "control w": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "exit": {
+            "action": {
+                "args": [
+                    "esc"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "exit tab": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "full screen": {
+            "action": {
+                "args": [
+                    "f"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "new tab": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "t"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "next tab": {
+            "action": {
+                "args": [
+                    "alt",
+                    "tab"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "open": {
+            "action": {
+                "args": [
+                    "i",
+                    "p",
+                    "l",
+                    "a",
+                    "y",
+                    "e",
+                    "r",
+                    "enter"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "pause": {
+            "action": {
+                "args": [
+                    "k"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "play": {
+            "action": {
+                "args": [
+                    "k"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "previous tab": {
+            "action": {
+                "args": [
+                    "alt",
+                    "shift",
+                    "tab"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        }
+    }
+}

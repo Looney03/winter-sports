@@ -1,0 +1,52 @@
+UCL MotionInput v3.2 - Child's Play
+
+This is a pseudo-VR based application developed by UCL. It allows the user to map their gestures and movements to keypresses.
+This file contains a general description of the application, providing an overview of its controls and settings.
+There are eight modes in this build, which can be selected by choosing from three binary options:
+-	Seated or Standing
+-	Left or Right hand
+-	2D or 3D
+By selecting any combination of these options, you can define how the MotionInput application will behave
+
+==================================MODES==================================
+Standing or Seated:
+Standing – Mode for active gameplay, which encompasses walking, jumping, and hand gestures.
+Seated – For users who are not cannot/do not want to perform activities requiring standing. This mode changes the mapping of several hit triggers, so that they work for seated users.
+This translates to the jump trigger no longer mapping on nose but on hand and one new button existing for walking forward.
+----------------
+2D or 3D:
+2D – This mode starts with 3 triggers (Left, Right, Jump) and serves for 2D games.
+3D - This mode starts with 5 triggers (Left, Right, Up, Down, Jump) and serves for 2D games.
+----------------
+Left or Right:
+Trigger positions will adjust depending on your dominant hand (either Left or Right).
+====================================================================
+
+There are also other setting available, which allow for further customization of the MotionInput gameplay.
+
+==================================SETTINGS==================================
+Extra buttons (0-3):
+This allows you to add 1-3 extra triggers (x, y, z), which will be also positioned during calibration.
+----------------
+Jump height (1-5):
+Allows you to determine how far should the jump trigger be placed during calibration and thus determine how high do you want to jump.
+----------------
+Walk sensitivity (1-5):
+Determines how many in-game steps map to one step in a real life, with higher number meaning more in-game steps.
+----------------
+Speech (on/off):
+Turn this on if you want the option to control the game through voice commands. Once activated, you can use all the voice commands during gameplay.
+The list of voice commands is as follows:
+“Run” - Triggers right arrow until “Stop”
+“Back” - Triggers left arrow until “Stop”
+“Stop” - Releases right and left arrow keys
+“Jump” - Triggers space key press
+“Menu” - Triggers enter key
+====================================================================
+
+Once you have set up all these details, press "Launch" to save the settings and start the calibration process.
+During this process, you will have the opportunity to place all the triggers in a location that works for you by following the instructions on the screen.
+
+
+
+

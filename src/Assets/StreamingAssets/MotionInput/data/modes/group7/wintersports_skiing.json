@@ -1,0 +1,91 @@
+{
+    "poses": [
+        {
+            "action": {
+                "args": [
+                    "left"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "skin": "common/default_trigger.png",
+            "pos": [
+                200,
+                140
+            ],
+            "radius": 90,
+            "text": "Turn Left"
+        },
+        {
+            "action": {
+                "args": [
+                    "right"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "skin": "common/default_trigger.png",
+            "pos": [
+                440,
+                140
+            ],
+            "radius": 90,
+            "text": "Turn Right"
+        },
+        {
+            "action": {
+                "args": [
+                    "q"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "landmark": "right_wrist",
+            "skin": "common/default_trigger.png",
+            "pos": [
+                560,
+                300
+            ],
+            "radius": 70,
+            "text": "right pole"
+        },
+        {
+            "action": {
+                "args": [
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [ 255, 200, 200 ],
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "skin": "common/default_trigger.png",
+            "pos": [
+                70,
+                300
+            ],
+            "radius": 70,
+            "text": "left pole"
+        },
+        {
+            "action": {},
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "skin":"common/full_body.png",
+            "pos": [
+                310,
+                320
+            ],
+            "radius": 500
+        }
+    ]
+}

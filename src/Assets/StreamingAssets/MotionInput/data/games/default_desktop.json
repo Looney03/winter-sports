@@ -1,0 +1,40 @@
+{
+  "config": {
+    "default_events": [
+      "hand_middle_pinch_right_press_right_hand",
+      "hand_pinky_pinch_monitor_change_right_hand",
+      "hand_fist_doubleclick_right_hand",
+      "hand_double_index_pinch_zoom",
+      "hand_index_middle_scroll_right_hand"
+    ],
+    "hand": "right",
+    "mouse": "default"
+  },
+  "poses": {
+    "index_pinch": {
+      "action": "mouse_down",
+      "args": ["left"]
+    }
+  },
+  "speech": {
+    "hold left": {
+      "action": "mouse_down",
+      "args": ["left"]
+    },
+    "release left": {
+      "action": "mouse_up",
+      "args": ["left"]
+    },
+    "hold right": {
+      "action": "mouse_down",
+      "args": ["right"]
+    },
+    "release right": {
+      "action": "mouse_up",
+      "args": ["right"]
+    },
+    "double click": {
+      "action": "double_click"
+    }
+  }
+}

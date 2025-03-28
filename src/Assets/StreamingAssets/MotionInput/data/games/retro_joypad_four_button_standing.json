@@ -1,0 +1,43 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_movement_joystick_left_hand",
+        "hand_index_pinch_left_press_right_hand"
+      ]
+    },
+    "poses":{
+      "left_punch": {
+        "action": "key_press",
+        "args": ["q"]
+      },
+      "right_kick": {
+          "action": "key_press",
+          "args": ["f"]
+      },
+      "right_punch": {
+        "action": "key_press",
+        "args": ["e"]
+      },
+      "left_kick": {
+        "action": "key_press",
+        "args": ["c"]
+      },
+      "right_hook":{
+        "action": "key_press",
+        "args": ["x"]
+      },
+      "left_hook": {
+        "action": "key_press",
+        "args": ["z"]
+      }
+    },
+    "speech": {
+      "pause": {
+        "action": "key_press",
+        "args": ["esc"]
+      }
+    }
+  }
+  
+  

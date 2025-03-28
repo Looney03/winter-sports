@@ -1,0 +1,31 @@
+{
+    "poses": [   
+        {
+            "file": "move_joystick.py",
+            "landmark": "left_wrist",
+            "pos": [220, 300],
+            "skin": "minecraft/joystick"
+        },
+		{
+            "file": "hand_closed.py",
+            "hand": "right",
+            "key_hold": true,
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["b"]
+            }
+        },
+        {
+            "file": "hand_index_stretched.py",
+            "hand": "right",
+            "key_hold": true,
+            "action": {
+                "class": "keyboard",
+                "method": "press",
+                "args": ["v"]
+            }
+        }
+    ]
+}
+

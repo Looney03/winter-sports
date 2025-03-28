@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2aaa4d522f147cd99d55f1294da536, type: 3}
+  m_Name: Skiing
+  m_EditorClassIdentifier: 
+  gameName: Skiing
+  demoPlay: {fileID: 21300000, guid: c6d45712cfa6da54f931d1e62a664d48, type: 3}
+  tutorialImages:
+  - {fileID: 21300000, guid: 103ef80d3f3f71941b2fdb0f9f809653, type: 3}
+  - {fileID: 21300000, guid: 79587c90baef754439798bb5655bcf62, type: 3}
+  - {fileID: 21300000, guid: 6b1c6b1582e8eab4e837f89320aea289, type: 3}
+  - {fileID: 21300000, guid: e7a1a06a07c5c264a95ae3b7778ba485, type: 3}
+  - {fileID: 21300000, guid: 4e656a1f01c003849a91c2f22fb79b81, type: 3}
+  - {fileID: 21300000, guid: 3dc709b954d278547be6b5314f825cdc, type: 3}
+  tutorialText: 
+  sceneName: NewSki
+  adjustableParameters:
+  - paramName: 'Forward Speed:'
+    paramType: 3
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection:
+    - Slow
+    - Normal
+    - Fast
+  - paramName: 'Lateral Speed:'
+    paramType: 3
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    selection:
+    - Slow
+    - Normal
+    - Fast

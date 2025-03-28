@@ -1,0 +1,38 @@
+{
+    "config": {
+      "mouse": "joystick",
+      "hand": "right",
+      "default_events": [
+      ]
+    },
+    "poses":{
+      "shoot": {
+        "action": "key_toggle",
+        "args": ["w"]
+      },
+      "thwip": {
+        "action": "key_down",
+        "args": ["shift"]
+      },
+      "peace": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    },
+    "speech": {
+      "recover": {
+        "action": "key_press",
+        "args": ["1"]
+      },
+      "scan": {
+        "action": "key_press",
+        "args": ["v"]
+      },
+      "boost": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    }
+  }
+  
+  

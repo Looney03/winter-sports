@@ -1,0 +1,241 @@
+{
+    "poses": [
+        {
+            "bp_tracking_mode": "ARROW_KEYS_PRESS",
+            "file": "body_point_tracking_event.py",
+            "gaming_keys": {
+                "down": {
+                    "action": {
+                        "args": [
+                            "page_down"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "left": {
+                    "action": {
+                        "args": [
+                            "left"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "right": {
+                    "action": {
+                        "args": [
+                            "right"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                },
+                "up": {
+                    "action": {
+                        "args": [
+                            "page_up"
+                        ],
+                        "class": "keyboard",
+                        "method": "press"
+                    }
+                }
+            },
+            "landmark": "right_wrist",
+            "reset_bp_box": true,
+            "show_arrows": true
+        },
+        {
+            "action": {
+                "args": [
+                    "left"
+                ],
+                "class": "mouse",
+                "method": "click"
+            },
+            "color": 3,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                120,
+                360
+            ],
+            "radius": 1,
+            "skin": "browsing\\click.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "up"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": 1,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                40,
+                40
+            ],
+            "radius": 1,
+            "skin": "browsing\\up.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "down"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            },
+            "color": 2,
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                40,
+                200
+            ],
+            "radius": 1,
+            "skin": "browsing\\down.png"
+        },
+        {
+            "action": {
+                "args": [
+                    "alt",
+                    "left"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [
+                255,
+                30,
+                30
+            ],
+            "file": "hit_trigger.py",
+            "landmark": "left_shoulder",
+            "pos": [
+                40,
+                200
+            ],
+            "radius": 40,
+            "skin": "browsing\\goback.png"
+        }
+    ],
+    "speech": {
+        "butterfly": {
+            "action": {
+                "args": [
+                    "reset_bp_box",
+                    true
+                ],
+                "class": "flags",
+                "method": "set"
+            }
+        },
+        "control w": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "exit": {
+            "action": {
+                "args": [
+                    "esc"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "exit tab": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "w"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "full screen": {
+            "action": {
+                "args": [
+                    "f"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "new tab": {
+            "action": {
+                "args": [
+                    "ctrl",
+                    "t"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "next tab": {
+            "action": {
+                "args": [
+                    "alt",
+                    "tab"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        },
+        "open": {
+            "action": {
+                "args": [
+                    "i",
+                    "p",
+                    "l",
+                    "a",
+                    "y",
+                    "e",
+                    "r",
+                    "enter"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "pause": {
+            "action": {
+                "args": [
+                    "k"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "play": {
+            "action": {
+                "args": [
+                    "k"
+                ],
+                "class": "keyboard",
+                "method": "press"
+            }
+        },
+        "previous tab": {
+            "action": {
+                "args": [
+                    "alt",
+                    "shift",
+                    "tab"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            }
+        }
+    }
+}

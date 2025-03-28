@@ -1,0 +1,71 @@
+{
+    "config": {
+      "hand": "right"
+    },
+    "gui": [
+      {
+        "file": "button.py",
+        "pos": [600, 40],
+        "radius": 30,
+        "skin": "icons/logo.png",
+        "action": {
+          "class": "system",
+          "method": "open_url",
+          "args": ["https://motioninputapps.com/pinch/"]
+        }
+      }
+    ],
+    "poses": [
+      {
+        "file": "hand_mouse_gaming.py",
+        "x": 300,
+        "y": 220,
+        "jitter_correction_strength": 10
+      },
+      {
+        "file": "hand_pinch_smooth.py",
+        "finger": "index",
+        "pinch_threshold": 1,
+        "unpinch_threshold": 5,
+        "action": {
+          "class": "mouse",
+          "method": "hold",
+          "args": ["left"]
+        }
+      },
+      {
+        "file": "hand_pinch_smooth.py",
+        "finger": "middle",
+        "pinch_threshold": 1,
+        "unpinch_threshold": 5,
+        "action": {
+          "class": "mouse",
+          "method": "hold",
+          "args": ["right"]
+        }
+      }
+    ],
+    "speech": {
+      "butterfly": {
+        "action": {
+          "class": "flags",
+          "method": "set",
+          "args": ["reset_aoi_box", true]
+        }
+      },
+      "zoom in": {
+        "action": {
+          "class": "flags",
+          "method": "set",
+          "args": ["aoi_zoom_in", true]
+        }
+      },
+      "zoom out": {
+        "action": {
+          "class": "flags",
+          "method": "set",
+          "args": ["aoi_zoom_out", true]
+        }
+      }
+    }
+  }

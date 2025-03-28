@@ -1,0 +1,60 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+        "file" : "splitscreen_tennis.py",
+        "order" : 1,
+        "action": {
+            "class": "keyboard",
+            "method": "press",
+            "args": ["1"]
+        },
+        "num_splits": 4,
+        "buffer_percentage": 30,
+        "traffic_light_height" : 100,
+        "radius" : 30,
+        "skin": "browsing\\click.png"
+    },
+    {
+        "file" : "splitscreen_tennis.py",
+        "order" : 2,
+        "action": {
+            "class": "keyboard",
+            "method": "press",
+            "args": ["2"]
+        },
+        "num_splits": 4,
+        "buffer_percentage": 30,
+        "traffic_light_height" : 100,
+        "radius" : 30
+    },
+    {
+        "file" : "splitscreen_tennis.py",
+        "order" : 3,
+        "action": {
+            "class": "keyboard",
+            "method": "press",
+            "args": ["3"]
+        },
+        "num_splits": 4,
+        "buffer_percentage": 30,
+        "traffic_light_height" : 100,
+        "radius" : 30
+    },
+    {
+        "file" : "splitscreen_tennis.py",
+        "order" : 4,
+        "action": {
+            "class": "keyboard",
+            "method": "press",
+            "args": ["4"]
+        },
+        "num_splits": 4,
+        "buffer_percentage": 30,
+        "traffic_light_height" : 100,
+        "radius" : 30
+    }
+  ]
+}

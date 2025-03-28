@@ -1,0 +1,12 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_joystick_direction_tracking_hand_box"
+      ]
+    },
+    "gestures": {
+    }
+  }
+  
+  

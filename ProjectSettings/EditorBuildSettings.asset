@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GameFolders/HomePage.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/GameFolders/PresentsDelivery.unity
+    guid: d2809ab9b90eea7419d8d90d4c505d35
+  - enabled: 0
+    path: Assets/GameFolders/Skiing.unity
+    guid: d19c0c571cd787c47bf6fad6f6fcecc9
+  - enabled: 0
+    path: Assets/GameFolders/Sledding.unity
+    guid: 17e0c29a120ed7f4e9dbc89df6012fb9
+  - enabled: 1
+    path: Assets/GameFolders/SnowballFight.unity
+    guid: 1925aeebcddec5a45aa369b7bb212be7
+  - enabled: 1
+    path: Assets/GameFolders/SpeedSkating.unity
+    guid: 0c3d4ef5ea7b22d49be41c9e8161a6ee
+  - enabled: 1
+    path: Assets/GameFolders/kayaking.unity
+    guid: 7562e1dd12fee4b0db27b2f0320a47ce
+  - enabled: 1
+    path: Assets/GameFolders/SnowAngel.unity
+    guid: 284973a718273ff439bc27dd02b6455f
+  - enabled: 1
+    path: Assets/GameFolders/SkatingScene.unity
+    guid: 9c807c27ab1e0471eaf4c84f832dc32c
+  - enabled: 1
+    path: Assets/GameFolders/NewSled.unity
+    guid: 8b3ae593f2080984b828a6d79c86e879
+  - enabled: 1
+    path: Assets/GameFolders/NewSki.unity
+    guid: 05d26c853ce972e4291dffa9d3d1b7d3
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

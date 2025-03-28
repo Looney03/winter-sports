@@ -1,0 +1,27 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_movement_joystick_left_hand",
+        "hand_index_pinch_left_press_right_hand"
+      ]
+    },
+    "poses":{
+      "shoot": {
+        "action": "key_down",
+        "args": ["q"]
+      },
+      "pinky_up": {
+        "action": "key_down",
+        "args": ["e"]
+      }
+    },
+    "speech": {
+      "pause": {
+        "action": "key_press",
+        "args": ["esc"]
+      }
+    }
+  }
+  
+  

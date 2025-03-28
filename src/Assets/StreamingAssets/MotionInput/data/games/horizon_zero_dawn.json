@@ -1,0 +1,52 @@
+{
+    "config": {
+      "mouse": "joystick",
+      "hand": "right",
+      "default_events": [
+        "hand_movement_joystick_left_hand",
+        "hand_index_pinch_left_press_right_hand"
+      ]
+    },
+    "poses":{
+      "shoot": {
+        "action": "mouse_down",
+        "args": ["left"]
+      },
+      "full_pinch": {
+        "action": "key_down",
+        "args": ["e"]
+      },
+      "fist": {
+        "action": "mouse_down",
+        "args": ["right"]
+      },
+      "peace": {
+        "action": "key_press",
+        "args": ["ctrl"]
+      }
+    },
+    "speech": {
+      "recover": {
+        "action": "key_press",
+        "args": ["q"]
+      },
+      "scan": {
+        "action": "key_press",
+        "args": ["v"]
+      },
+      "sprint": {
+          "action": "key_press",
+          "args": ["shift"]
+      },
+      "crouch": {
+          "action": "key_press",
+          "args": ["c"]
+      },
+      "up": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    }
+  }
+  
+  

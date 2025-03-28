@@ -1,0 +1,58 @@
+{
+    "poses": [
+        {
+            "action": {
+                "args": [
+                    "left"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "pos": [
+                140,
+                140
+            ],
+            "radius": 140,
+            "text": "Turn Left"
+        },
+        {
+            "action": {
+                "args": [
+                    "right"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "pos": [
+                500,
+                140
+            ],
+            "radius": 140,
+            "text": "Turn Right"
+        },
+        {
+            "action": {
+                "args": [
+                    "down"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "landmark": "left_wrist",
+            "pos": [
+                70,
+                300
+            ],
+            "radius": 70,
+            "text": "shoot"
+        }
+    ]  
+}

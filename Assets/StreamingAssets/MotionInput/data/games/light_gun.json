@@ -1,0 +1,14 @@
+{
+  "config": {
+    "mouse": "default",
+    "default_events": [
+    ]
+  },
+  "poses": {
+    "gun_click": {
+      "action": "mouse_press",
+      "args": ["left"]
+    }
+  }
+}
+

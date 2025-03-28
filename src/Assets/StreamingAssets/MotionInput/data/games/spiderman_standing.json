@@ -1,0 +1,65 @@
+{
+    "config": {
+      "mouse": "default",
+      "hand": "right",
+      "default_events": [
+        "hand_movement_joystick_left_hand"
+      ]
+    },
+    "gestures": {
+      "right_punch": {
+          "action": "mouse_press",
+          "args": ["left"]
+      },
+      "left_punch": {
+          "action": "key_press",
+          "args": ["f"]
+      },
+      "left_hook": {
+          "action": "key_down_interval",
+          "args": ["f", 1]
+      },
+      "right_clockwise_circle": {
+          "action": "key_down_interval",
+          "args": ["q", 3]
+      },
+      "fighting_stance": {
+          "action": "key_press",
+          "args": ["c"]
+      },
+      "push_back": {
+          "action": "key_press",
+          "args": ["ctrl"]
+      }
+    },
+    "poses":{
+      "thwip": {
+        "action": "key_down",
+        "args": ["shift"]
+      },
+      "peace": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    },
+    "speech": {
+      "recover": {
+        "action": "key_press",
+        "args": ["1"]
+      },
+      "scan": {
+        "action": "key_press",
+        "args": ["v"]
+      },
+      "boost": {
+        "action": "key_press",
+        "args": ["space"]
+      },
+      "shoot": {
+          "action": "key_press",
+          "args" : ["e", 6]
+      }
+    }
+  }
+  
+  

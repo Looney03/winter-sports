@@ -1,0 +1,169 @@
+UCL MotionInput v3.4 - Facial Navigation with Speech and Gestures
+
+This version of MotionInput introduces major advancements in nose tracking, precision control, and customizable navigation for both gaming and productivity. It leverages facial movements, gestures, and speech to emulate mouse and keyboard actions without any physical contact. The application also introduces enhanced modes for nose navigation, new configuration options, and better customization for users with accessibility needs.
+
+Key Features in v3.4:
+----------------------
+
+    - Advanced Nose Navigation:
+        Two modes of mouse control:
+            Joystick Mode: Relative mouse movement based on nose displacement from the resting position (like a traditional joystick).
+            Direct Nose Tracking: Absolute mapping of the nose's position within the green NoseBox to the screen, enabling precise cursor placement.
+        NoseBox (Green AOI): A dynamic area of interest that adjusts precision and movement sensitivity.
+        Zoom Control for NoseBox: Speech commands ("Zoom in" and "Zoom out") adjust the size of the NoseBox to fine-tune precision and movement sensitivity.
+
+    - Speech Commands: Expanded vocabulary includes new commands for advanced mouse and keyboard actions, media control, and system navigation.
+
+    - Customizable Gaming Keys: Nose gestures (up, down, left, right) can be mapped to any keyboard keys for gaming or productivity.
+
+    - Facial Gestures as Triggers: Gestures like "smile" and "raise eyebrows" can be assigned to specific actions, providing non-verbal control.
+
+    - Improved Visual Overlays: Configurable overlays for better feedback during tracking:
+        NoseBox Overlay: Green box with a visual "nose dot" showing live tracking.
+        Arrow Overlay: Highlights the active direction for keyboard-based nose tracking.
+
+    - Low-Light Camera Mode: Enables an alert when the lighting conditions are suboptimal for tracking.
+
+
+------------------------
+** Modes of Operation **
+------------------------
+
+
+1. Nose Navigation with Speech
+------------------------------
+
+In this mode, your nose position controls mouse movements, with commands augmenting the experience for clicking, dragging, and keyboard inputs.
+    - Green NoseBox:
+        The NoseBox is the Area of Interest (AOI) displayed on the screen. It helps define where the mouse cursor will move.
+        The size of the NoseBox can be adjusted via the "Zoom in" and "Zoom out" commands, allowing for either fine-tuned precision or broader movements.
+
+    - Mouse Control:
+        Joystick Mode: Relative movements of the nose within the NoseBox adjust the cursor position smoothly.
+        Direct Nose Tracking: Absolute movements within the NoseBox directly map to the screen.
+
+    - Key Commands:
+        "Butterfly": Resets the resting position of the cursor to your nose's current position.
+        "Click", "Right click", "Double click": Perform mouse clicks using speech.
+
+    - Zoom Commands:
+        "Zoom in": Enlarges the NoseBox, increasing precision.
+        "Zoom out": Shrinks the NoseBox, increasing cursor responsiveness.
+
+    - Dragging:
+        "Hold left"/"Release left": Click-and-drag functionality for the left mouse button.
+        "Hold right"/"Release right": Click-and-drag functionality for the right mouse button.
+
+2. Nose Navigation with Keyboard Gestures
+-----------------------------------------
+
+This mode extends nose gestures to simulate keyboard actions, with two distinct behaviors:
+    - Arrow Keys (Hold Down): Continuous arrow key presses while your nose remains outside the NoseBox boundaries. This is useful for gaming or smooth navigation.
+
+    - Arrow Keys (Press Once): Triggers a single key press when your nose moves outside the NoseBox. Ideal for stepwise navigation or turn-based games.
+
+Default mappings for gaming and productivity:
+    - Nose Up: W or Up Arrow
+    - Nose Down: S or Down Arrow
+    - Nose Left: A or Left Arrow
+    - Nose Right: D or Right Arrow
+
+Mappings can be customized via the interface for specific workflows or games.
+
+3. Facial Gestures
+------------------
+
+Non-speech-based interactions use facial expressions as input triggers. These can be assigned to any mouse or keyboard action.
+
+    Available Gestures:
+        Smile
+        Raise Eyebrows
+        Open Mouth
+        Fish Face
+
+For example:
+    - A "smile" can simulate a left mouse click.
+    - An "open mouth" can trigger a "space" key press.
+
+4. Speech Commands
+----------------
+
+Mouse and Cursor Control:
+    - "Butterfly": Reset the NoseBox center to your current nose position.
+    - "Start"/"Stop": Enable or disable nose tracking.
+
+Clicking:
+    - "Click": Left mouse click.
+    - "Right click": Right mouse click.
+    - "Double click": Double left click.
+
+Dragging:
+    - "Hold left"/"Release left": Drag using the left mouse button.
+    - "Hold right"/"Release right": Drag using the right mouse button.
+
+Zoom:
+    - "Zoom in": Reduce NoseBox size for increased precision.
+    - "Zoom out": Enlarge NoseBox size for increased cursor responsiveness.
+
+Keyboard Shortcuts
+------------------
+
+A comprehensive list of shortcuts is available, allowing speech commands to replace key presses:
+
+Movement and Navigation:
+    "Next", "Previous", "Up", "Down": Arrow key presses.
+    "Page up", "Page down": Scroll the page.
+
+Text Editing:
+    "Copy", "Cut", "Paste".
+    "Undo", "Redo", "Bold", "Italic", "Underline".
+    "Find": Activates search functionality.
+    "Select all".
+
+Media Control:
+    "Play"/"Pause".
+    "Next track"/"Previous track".
+    "Volume up"/"Volume down".
+
+Window Management:
+    "Switch Windows": Alt+Tab.
+    "Minimize"/"Maximize": Adjust the active window.
+    "Close": Alt+F4.
+
+File Operations:
+    "Save", "Print", "New Document".
+    "Files": Opens File Explorer.
+
+Overlay and Visual Feedback:
+    - Green NoseBox: Displays the area of interest for nose navigation, with live feedback via a green box and a white "nose dot."
+    - Triggered Color: The dot changes color when active.
+
+    - Arrow Overlay: Highlights the active direction for keyboard-based nose tracking.
+
+Camera Settings:
+    - Default Camera: Select your input device for nose tracking.
+
+    - Low Light Mode: Enables an alert when the lighting conditions are suboptimal for tracking.
+
+Advanced Gaming Configuration
+-----------------------------
+
+Assign any keyboard action to nose gestures for gaming.
+
+Defaults:
+    Up: W
+    Down: S
+    Left: A
+    Right: D
+
+Easily remap keys for tailored gameplay.
+
+How to Get Started:
+    Position yourself in front of the camera and ensure your face is well-lit.
+    Choose the tracking mode:
+        - "Joystick" for relative mouse movements.
+        - "Direct" for absolute nose-to-screen mapping.
+    Adjust the NoseBox size using "Zoom in"/"Zoom out".
+    Customize speech or gesture bindings to match your needs.
+
+For additional information, troubleshooting, and updates, visit www.touchlesscomputing.org.

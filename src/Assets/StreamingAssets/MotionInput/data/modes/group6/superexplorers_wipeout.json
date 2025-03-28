@@ -1,0 +1,40 @@
+{
+    "poses": [
+        {
+            "action": {
+                "args": [
+                    "d"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "pos": [
+                320,
+                80
+            ],
+            "radius": 70,
+            "text": "jump"
+        },
+        {
+            "action": {
+                "args": [
+                    "d"
+                ],
+                "class": "keyboard",
+                "method": "hold"
+            },
+            "color": [255,200,200],
+            "file": "hit_trigger.py",
+            "landmark": "nose",
+            "pos": [
+                320,
+                400
+            ],
+            "radius": 70,
+            "text": "duck"
+        }
+    ]  
+}

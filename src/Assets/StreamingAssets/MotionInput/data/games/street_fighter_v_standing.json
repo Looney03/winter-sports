@@ -1,0 +1,68 @@
+{
+  "config": {
+    "mouse": "none",
+    "default_events": [
+    ]
+  },
+  "speech": {
+    "special": {
+      "action": "special",
+      "args": []
+    }
+  },
+  "gestures": {
+    "walk_right": {
+      "action": "key_press",
+      "args": ["d", 2]
+    },
+    "walk_left": {
+      "action": "key_press",
+      "args": ["a", 2]
+    },
+    "right_punch": {
+      "action": "key_press",
+      "args": ["g"]
+    },
+    "left_punch": {
+      "action": "key_press",
+      "args": ["h"]
+    },
+    "right_hook": {
+      "action": "key_press",
+      "args": ["j"]
+    },
+    "right_kick": {
+      "action": "key_press",
+      "args": ["b"]
+    },
+    "left_kick": {
+      "action": "key_press",
+      "args": ["n"]
+    },
+    "front_kick": {
+      "action": "key_press",
+      "args": ["m"]
+    },
+    "hadouken": {
+      "action": "hadouken",
+      "args": []
+    },
+    "fighting_stance": {
+      "action": "ultimate_hadouken",
+      "args": []
+    },
+    "uppercut": {
+      "action": "shoryuken",
+      "args": []
+    },
+    "left_hook": {
+      "action": "ryu_combo",
+      "args": []
+    },
+    "right_clockwise_circle": {
+      "action": "senpunyaku",
+      "args": []
+    }
+  }
+}
+

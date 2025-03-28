@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2aaa4d522f147cd99d55f1294da536, type: 3}
+  m_Name: SnowAngel
+  m_EditorClassIdentifier: 
+  gameName: Snow Angel
+  demoPlay: {fileID: 21300000, guid: 7733d04872555f240b0c1beea4b7e2f0, type: 3}
+  tutorialImages:
+  - {fileID: 21300000, guid: 7d98dc5aeff73d14280109e2d3dc186b, type: 3}
+  - {fileID: 21300000, guid: e6a1ee6ad5c99f14eb215725b9ff422c, type: 3}
+  - {fileID: 21300000, guid: ff9a7c618e73fe44d911c9160c7b54f3, type: 3}
+  - {fileID: 21300000, guid: b541bf2ecebbe724d9c14d2a12bd987e, type: 3}
+  - {fileID: 21300000, guid: 8590236494404444198e27b65d1110fe, type: 3}
+  - {fileID: 21300000, guid: dec39536ef559644bac826f8240aae60, type: 3}
+  - {fileID: 21300000, guid: ee9c9b05afcad9e4683a2699a2f30a12, type: 3}
+  tutorialText: 
+  sceneName: SnowAngel
+  adjustableParameters:
+  - paramName: 'Speed:'
+    paramType: 3
+    floatValue: 0
+    intValue: 2
+    boolValue: 0
+    selection:
+    - Slow
+    - Normal
+    - Fast
+  - paramName: 'Show Timer:'
+    paramType: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+    selection: []
+  - paramName: 'Game Time:'
+    paramType: 1
+    floatValue: 0
+    intValue: 40
+    boolValue: 0
+    selection: []

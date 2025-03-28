@@ -1,0 +1,46 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+      "file": "hand_mouse_gaming.py"
+    },
+    {
+      "file": "hand_pinch_hold.py"
+    },
+    {
+      "file": "raise_hand_transcribe.py"
+    },
+    {
+    "file": "zoom_pinch.py"
+    }
+  ],
+  "speech": {
+    "transcribe": {
+      "action": ""
+    },
+    "left click": {
+      "action": {
+        "class": "mouse",
+        "method": "click",
+        "args": [ "left" ]
+      }
+    },
+    "right click": {
+      "action": {
+        "class": "mouse",
+        "method": "click",
+        "args": [ "right" ]
+      }
+    },
+    "double click": {
+      "action": {
+        "class": "mouse",
+        "method": "double_click",
+        "args": [ "left" ]
+      }
+    }
+
+  }
+}

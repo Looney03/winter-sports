@@ -1,0 +1,20 @@
+{
+  "config": {
+    "mouse": "none",
+    "default_events": [
+    ]
+  },
+  "poses": {
+    "fist": {
+      "action": "key_down",
+      "args": ["."],
+      "hand": "left"
+    },
+    "fist2": {
+      "action": "key_down",
+      "args": ["/"],
+      "hand": "right"
+    }
+  }
+}
+

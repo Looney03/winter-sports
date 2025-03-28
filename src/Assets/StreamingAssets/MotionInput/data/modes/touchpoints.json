@@ -1,0 +1,46 @@
+{
+  "config": {
+    "hand": "right"
+  },
+  "poses": [
+    {
+      "file": "touch_pinch.py"
+    },
+    {
+      "file": "touch_mouse.py",
+      "x": 120,
+      "y": 90,
+      "width": 400,
+      "height": 300,
+      "smoother": "OneEuroSmoother"
+    },
+    {
+      "file": "palm_transcribe.py",
+      "hand": "left",
+      "index_only": false
+    }
+  ],
+  "speech": {
+    "butterfly": {
+      "action": {
+        "class": "flags",
+        "method": "set",
+        "args": ["reset_aoi_box", true]
+      }
+    },
+    "zoom in": {
+      "action": {
+        "class": "flags",
+        "method": "set",
+        "args": ["aoi_zoom_in", true]
+      }
+    },
+    "zoom out": {
+      "action": {
+        "class": "flags",
+        "method": "set",
+        "args": ["aoi_zoom_out", true]
+      }
+    }
+  }
+}

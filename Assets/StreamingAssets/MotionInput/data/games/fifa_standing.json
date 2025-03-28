@@ -1,0 +1,32 @@
+{
+    "config": {
+      "mouse": "none",
+      "default_events": [
+        "hand_movement_joystick_left_hand"
+      ]
+    },
+    "speech": {
+      "switch": {
+        "action": "key_press",
+        "args": ["shift"]
+      }
+    },
+    "gestures": {
+      "front_kick": {
+        "action": "key_press",
+        "args": ["space"]
+      },
+      "right_kick": {
+          "action": "key_press",
+          "args": ["l"]
+      },
+      "left_kick": {
+          "action":"key_press",
+          "args": ["j"]
+      },
+      "uppercut": {
+          "action": "key_toggle",
+          "args": ["shift"]
+      }
+    }
+  }

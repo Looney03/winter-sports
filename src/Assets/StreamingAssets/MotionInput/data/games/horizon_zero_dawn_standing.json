@@ -1,0 +1,51 @@
+{
+    "config": {
+      "mouse": "joystick",
+      "hand": "right",
+      "default_events": [
+        "hand_movement_joystick_left_hand"
+      ]
+    },
+    "gestures": {
+      "bow_arrow": {
+        "action": "mouse_toggle",
+        "args": ["right"]
+      },
+      "right_punch": {
+        "action": "mouse_press",
+        "args": ["left"]
+      },
+      "push_back": {
+        "action": "key_press",
+        "args": ["ctrl"]
+      },
+      "right_hook": {
+        "action" : "key_down_interval",
+        "args": ["e", 2]
+      }
+    },
+    "speech": {
+      "recover": {
+        "action": "key_press",
+        "args": ["q"]
+      },
+      "scan": {
+        "action": "key_press",
+        "args": ["v"]
+      },
+      "sprint": {
+          "action": "key_press",
+          "args": ["shift"]
+      },
+      "crouch": {
+          "action": "key_press",
+          "args": ["c"]
+      },
+      "up": {
+        "action": "key_press",
+        "args": ["space"]
+      }
+    }
+  }
+  
+  

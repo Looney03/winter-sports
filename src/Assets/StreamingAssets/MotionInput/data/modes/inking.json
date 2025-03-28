@@ -1,0 +1,18 @@
+{
+  "config": {
+    "hand": "left"
+  },
+  "poses": [
+    {
+      "file": "inking_pen.py"
+    },
+    {
+      "file": "raise_hand_transcribe.py"
+    }
+  ],
+  "speech": {
+    "transcribe": {
+      "action": ""
+    }
+  }
+}
